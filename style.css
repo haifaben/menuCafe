@@ -1,0 +1,47 @@
+body{
+    background-image: url("images/cafe-bg.jpg");
+}
+
+.menu-container{
+    background-color:burlywood;
+    padding: 20px;
+    width:500px;
+    margin: 0 auto;
+}
+
+hr {height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.menu-container h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+}
+.menu-container img{
+    display:block;
+    margin:0 auto;
+    width:64px;
+
+    
+}
+
+.menu-container p.date{
+    text-align: center;
+    font-style: italic;
+}
+
+.menu-container h2{
+    text-align: center;
+    color:black;
+}
+
+.menu-item{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer {text-align: center;}
